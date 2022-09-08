@@ -1,5 +1,10 @@
 // Business Logic
-function createArray()
+function createArray(number) {
+  if isEmpty(number) {
+    return 0;
+  }
+  
+}
 
 
 
