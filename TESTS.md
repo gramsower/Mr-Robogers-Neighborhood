@@ -15,6 +15,10 @@ Expected Output: [0, 1, 2, 3, 4, 5]
 ### Notes
 
 - Initial function should return an array from 0 to whatever number the user input. Array should not be visible to user, but should be placed into its own variable.
-    - For UI logic - input should not permit negative or non-numeric characters
+    - Function should use a for loop where index 0 = 0, index 1 = index 0+1, index 2 = index 1+1, and so on.
+    - 
+
+
+    - For UI logic/ html: use "number" form.
 
 - Second function should then take array output from first function and loop through array, replacing each number with appropriate word or phrase, and then return the output in an array to the user.
