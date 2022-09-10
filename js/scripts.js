@@ -1,9 +1,12 @@
-
+//Utility Logic
+function isEmpty(testString) {
+  return(testString.trim().length===0);
+}
 
 // Business Logic
 function createArray(number) {
   if isEmpty(number) {
-    return 0;
+    return "You must enter a number!";
   }
   let newArray = [];
   for (let index=0; index=userInput; )
