@@ -1,8 +1,3 @@
-//Utility Logic
-function isEmpty(testString) {
-  return(testString.trim().length === 0);
-}
-
 // Business Logic
 
 function createArray(number) {
