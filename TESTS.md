@@ -12,8 +12,9 @@ Test: It should return an error message if the user enters '0' as the value.
 Code: beepBoop(0);
 Expected Output: 'Error: You must enter a number greater than zero if you want me to talk to you (other than this sentence!)'
 
+
 Test: It should return 'Beep!' when the user enters '1'.
-Code: beepBoop(1);
+Code: findAndReplace(1)
 Expected Output: 'Beep!'
 
 

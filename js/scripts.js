@@ -3,11 +3,17 @@ function beepBoop(number) {
   if (number === '0') {
     return 'Error: You must enter a number greater than zero if you want me to talk to you (other than this sentence)!'
   }
-  let originalArray = [];    
+  let originalArray = [];
+  let newArray = [];    
   for (let i = 0; i<=number; i+=1) {
       originalArray.push(i);      
     }
-  return originalArray;
+  originalArray.forEach(function(element) {
+    if (element.includes("1")) {
+      newArray = ("Beep!" + originalArray);
+    }
+  });
+  return newArray;
 };
 
 
