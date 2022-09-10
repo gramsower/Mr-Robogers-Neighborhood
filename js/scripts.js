@@ -7,19 +7,28 @@ function beepBoop(number) {
   for (let i = 0; i<=number; i+=1) {
       originalArray.push(i);      
     }
-  let newArray = [];
-  originalArray.forEach(function(entry) {
-    if (entry === 1) {
+  let subArray = [];
+  let newArray = originalArray.toString();
+  newArray.forEach(Function(entry) {
+    if (entry === '1') {
       newArray.push(" 'Beep!'"); 
-     } else if (entry === 2) {
+     } else if (entry === '2') {
       newArray.push(" 'Boop!'");
-     } else if (entry === 3) {
+     } else if (entry === '3') {
       newArray.push(" 'Won't you be my neighbor?'");
      } else {
+      let textArray = entry.split(" ");
+      textArray.forEach(Function(textArray, ) {
+        if ()
+
+      })
+
+
+
       newArray.push(" "+entry);
      }
     });
-   return newArray;
+   return subArray;
   }
 
 
