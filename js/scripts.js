@@ -9,10 +9,12 @@ function beepBoop(number) {
     }
   let newArray = [];
   originalArray.forEach(function(entry) {
-    if (entry == 1) {
-      newArray.push(entry); 
+    if (entry === 1) {
+      newArray.push(" Beep!"); 
+     } else if (entry === 2) {
+      newArray.push(" Boop!");
      } else {
-      newArray.push(" Beep!");
+      newArray.push(entry);
      }
     })
    return newArray;
