@@ -26,6 +26,7 @@ function beepBoop(number) {
 // UI Logic
 function handleFormSubmission() {
   event.preventDefault();
+
   const number = document.getElementById("user-number").value;
   const result = beepBoop(number);
   document.getElementById("computer-response").innerText = result;
