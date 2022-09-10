@@ -2,7 +2,7 @@
 
 #### By Greg Ramsower
 
-#### A website using arrays and loops to substitutes "beep!", "boop!" or "won't you be my neighbor?" for user input.
+#### A website using arrays and loops to substitute "Beep!", "Boop!" or "Won't you be my neighbor?" for specific user input values.
 
 ### Technologies Used
 *HTML

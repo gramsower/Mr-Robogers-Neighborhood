@@ -1,34 +1,25 @@
 // Business Logic
 function beepBoop(number) {
-  if (number === '0') {
-    return 'Error: You must enter a number greater than zero if you want me to talk to you (other than this sentence)!'
+  if (number === '0' || number === '') {
+    return 'Error: You must enter a whole number--greater than zero--if you want me to talk to you (other than this sentence)!'
   }
   let originalArray = [];
   for (let i = 0; i<=number; i+=1) {
       originalArray.push(i);      
     }
-  let subArray = [];
-  let newArray = originalArray.toString();
-  newArray.forEach(Function(entry) {
-    if (entry === '1') {
-      newArray.push(" 'Beep!'"); 
-     } else if (entry === '2') {
+  let newArray =[];
+  originalArray.forEach(function(entry) {
+    if (entry.toString().includes('3')) {
+      newArray.push(" 'Won't you be my neighbor?'"); 
+     } else if (entry.toString().includes('2')) {
       newArray.push(" 'Boop!'");
-     } else if (entry === '3') {
-      newArray.push(" 'Won't you be my neighbor?'");
+     } else if (entry.toString().includes('1')) {
+      newArray.push(" 'Beep!'");
      } else {
-      let textArray = entry.split(" ");
-      textArray.forEach(Function(textArray, ) {
-        if ()
-
-      })
-
-
-
       newArray.push(" "+entry);
      }
     });
-   return subArray;
+   return newArray;
   }
 
 

@@ -1,4 +1,4 @@
-### This page contains all the tests for the javascript business logic required for the page to function properly, and a whiteboard/ scratch paper section for work-in-progress notes.
+### This page contains all the tests for the javascript business logic required for the page to function properly.
 
 ### Tests
 
@@ -11,7 +11,6 @@ Expected Output: [0, 1, 2, 3, 4, 5]
 Test: It should return an error message if the user enters '0' as the value.
 Code: beepBoop(0);
 Expected Output: 'Error: You must enter a number greater than zero if you want me to talk to you (other than this sentence!)'
-
 
 Test: It should return "Beep!" if one of the array values is '1'.
 Code: beepBoop(1);
