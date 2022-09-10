@@ -1,22 +1,21 @@
 // Business Logic
 
-function createArray(number) {
-  if (number === '0') {
-    return "Eror: You must enter a number greater than zero if you want me to talk to you (other than this sentence)!";
-  } else {
-    let newArray = [];
-    for (let i = 0; i<=number; i+=1) {
-      newArray.push(i);
-    }
-    return newArray;
+function beepBoop(number) {
+  if (number === 0) {
+    return 'Error: You must enter a number greater than zero if you want me to talk to you (other than this sentence)!'
   }
-};
+  let originalArray = [];    
+  for (let i = 0; i<=number; i+=1) {
+      originalArray.push(i);
+    }
+  let cloneArray = originalArray;
+  return cloneArray;
+  };
 
-function replaceNumbers(newArray) {
 
+function replaceNumbers(createArray) {
+  if 
 }
-
-
 
 // UI Logic
 function handleFormSubmission() {
