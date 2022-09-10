@@ -10,15 +10,17 @@ function beepBoop(number) {
   let newArray = [];
   originalArray.forEach(function(entry) {
     if (entry === 1) {
-      newArray.push(" Beep!"); 
+      newArray.push(" 'Beep!'"); 
      } else if (entry === 2) {
-      newArray.push(" Boop!");
+      newArray.push(" 'Boop!'");
+     } else if (entry === 3) {
+      newArray.push(" 'Won't you be my neighbor?'");
      } else {
-      newArray.push(entry);
+      newArray.push(" "+entry);
      }
-    })
+    });
    return newArray;
-  };
+  }
 
 
 // UI Logic
