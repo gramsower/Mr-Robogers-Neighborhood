@@ -13,10 +13,13 @@ Code: beepBoop(0);
 Expected Output: 'Error: You must enter a number greater than zero if you want me to talk to you (other than this sentence!)'
 
 
-Test: It should return 'Beep!' when the user enters '1'.
-Code: findAndReplace(1)
-Expected Output: 'Beep!'
+Test: It should return 'Beep!' if one of the array values is '1'.
+Code: beepBoop(1);
+Expected Output: [0, 'Beep!']
 
+Test: It should return 'Boop!' if one of the array values is '2'.
+Code: beepBoop(2);
+Expected Output: [0, 'Beep!', 'Boop!']
 
 
 ### Notes

@@ -4,18 +4,19 @@ function beepBoop(number) {
     return 'Error: You must enter a number greater than zero if you want me to talk to you (other than this sentence)!'
   }
   let originalArray = [];
-  let newArray = [];    
   for (let i = 0; i<=number; i+=1) {
       originalArray.push(i);      
     }
-  originalArray.forEach(function(element) {
-    if (element.includes("1")) {
-      newArray = ("Beep!" + originalArray);
-    }
-  });
-  return newArray;
-};
-
+  let newArray = [];
+  originalArray.forEach(function(entry) {
+    if (entry == 1) {
+      newArray.push(entry); 
+     } else {
+      newArray.push(" Beep!");
+     }
+    })
+   return newArray;
+  };
 
 
 // UI Logic
