@@ -18,9 +18,11 @@ This website allows a user to input a value from 0 to a (theoretically) infinite
 
 ## Setup / Installation Requirements
 
-
+Open your browser to the website, enter the data, and hit 'enter'.
 
 ## Known Bugs
+
+None.
 
 ## Tests
 * See "TESTS.md" file for tests regarding this project.
